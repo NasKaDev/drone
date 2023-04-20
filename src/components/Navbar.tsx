@@ -1,10 +1,8 @@
-import React from "react";
-
 function Navbar() {
   return (
-    <nav className="bg-white  fixed w-full z-20 top-0 left-0 border-b border-gray-200">
+    <nav className="bg-white sticky w-full z-20 top-0 left-0 border-b border-gray-200">
       <div className="max-w-screen-xl flex flex-wrap justify-between mx-auto px-4 h-[10vh]">
-        <a href="https://flowbite.com/" className="flex items-center">
+        <a href="/" className="flex items-center">
           <span className="self-center text-2xl font-bold whitespace-nowrap ">
             Drone<span className="text-[#EC730D]">SousMarin</span>
           </span>
@@ -12,7 +10,7 @@ function Navbar() {
         <div className="flex md:order-2">
           <button
             type="button"
-            className="text-black bg-[#EC730D] hover:bg-[#d66304] focus:ring-4 focus:outline-none  font-bold text-sm px-4 py-2 text-center mr-3 md:mr-0 "
+            className="text-white bg-[#EC730D] hover:bg-[#d66304] focus:ring-4 focus:outline-none  font-bold text-lg px-4 py-2 text-center mr-3 md:mr-0 hover:scale-90 transform transition duration-300 ease-in-out"
           >
             Demander un devis
           </button>

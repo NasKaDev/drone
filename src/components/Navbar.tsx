@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="bg-white sticky w-full z-20 top-0 left-0 border-b border-gray-200">
+    <nav className="bg-white sticky w-full z-20 top-0 left-0 border-b border-gray-200 shadow-md">
       <div className="max-w-screen-xl flex flex-wrap justify-between mx-auto px-4 h-[10vh]">
         <a href="/" className="flex items-center">
           <span className="self-center text-2xl font-bold whitespace-nowrap ">

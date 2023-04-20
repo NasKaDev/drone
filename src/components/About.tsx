@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="max-w-screen-xl mx-auto px-4 py-20 flex gap-10 font-poppins">
+    <div className="max-w-screen-xl mx-auto px-4 py-20 flex gap-10 font-poppins text-gray-900">
       <div className="w-1/2">
         <h1 className="text-4xl font-bold">
           <span className="text-[#EC730D]">A</span> propos de nous

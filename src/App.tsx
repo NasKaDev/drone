@@ -1,22 +1,17 @@
+import { Route, Routes, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
-import Carousel from "./components/Carousel";
-import About from "./components/About";
-import Services from "./components/Services";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import Team from "./components/Team";
+import Home from "./pages";
+import Devis from "./components/DevisForm";
 
 function App() {
   return (
-    <div>
+    <>
       <Navbar />
-      <Carousel />
-      <About />
-      <Services />
-      <Team />
-      <Contact />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/devis" element={<Devis />} />
+      </Routes>
+    </>
   );
 }
 

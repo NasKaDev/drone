@@ -1,3 +1,5 @@
+import { Link, NavLink } from "react-router-dom";
+
 function Navbar() {
   return (
     <nav className="bg-white sticky w-full z-20 top-0 left-0 border-b border-gray-200 shadow-md">
@@ -12,7 +14,7 @@ function Navbar() {
             type="button"
             className="text-white bg-[#EC730D] hover:bg-[#d66304] focus:ring-4 focus:outline-none  font-bold text-lg px-4 py-2 text-center mr-3 md:mr-0 hover:scale-90 transform transition duration-300 ease-in-out"
           >
-            Demander un devis
+            <NavLink to="/devis">Demander un devis</NavLink>
           </button>
           <button
             data-collapse-toggle="navbar-sticky"
@@ -44,7 +46,7 @@ function Navbar() {
           <ul className="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white">
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-white bg-[#EC730D] rounded md:bg-transparent md:text-[#EC730D] md:p-0 "
                 aria-current="page"
               >
@@ -53,7 +55,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC730D] md:p-0  "
               >
                 A propos
@@ -61,7 +63,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC730D] md:p-0"
               >
                 Services
@@ -69,7 +71,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC730D] md:p-0 "
               >
                 Expertises
@@ -77,7 +79,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC730D] md:p-0 "
               >
                 Temoignages
@@ -85,7 +87,7 @@ function Navbar() {
             </li>
             <li>
               <a
-                href="#"
+                href="/"
                 className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-[#EC730D] md:p-0 "
               >
                 Contact
